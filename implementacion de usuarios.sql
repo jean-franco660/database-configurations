@@ -2,7 +2,7 @@ use TicTacToeDB;
 
 CREATE USER 'admin1_tictactoe'@'%' IDENTIFIED BY '123456789';
 
-GRANT ALL PRIVILEGES ON TicTacTroeDB.* TO 'admin1_tictactroe'@'%';
+GRANT ALL PRIVILEGES ON TicTacTroeDB.* TO 'admin1_tictactoe'@'%';
 
 CREATE USER 'dev1_tictactoe'@'%' IDENTIFIED BY '123456789';
 CREATE USER 'dev2_tictactoe'@'%' IDENTIFIED BY '123456789';
