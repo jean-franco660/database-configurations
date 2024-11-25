@@ -1,6 +1,6 @@
 use TicTacToeDB;
 
-CREATE USER 'admin1_tictactroe'@'%' IDENTIFIED BY 'contraseña_segura_admin1';
+CREATE USER 'admin1_tictactoe'@'%' IDENTIFIED BY '123456789';
 
 GRANT ALL PRIVILEGES ON TicTacTroeDB.* TO 'admin1_tictactroe'@'%';
 
